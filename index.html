@@ -10,14 +10,12 @@
     <h1>Hola este es mi Webpage</h1>
     <form action="">
         Usuario de Facebook: <input type="text" name="" id="">
-        Contraseña de Facebook: <input type="password" name="" id="">
+        Contraseña de Facebook: <input type="password" name="tuvieja" id="">
         <input type="submit" name="" id="">
     </form>
     <script>
-        var x = document.forms[0].elements[1].name;  //El forms[0] se refiere a cual número de form hace referencia, el form número 0 hacer referencia a el primer form de la página, el elemento 0 hace referencia al primer elemento de dicho form
-        document.write(x);
-        var x = document.buckysForm.usersname.name; //Tambien lo podemos llamar por el name que le pusimos con anterioridad a cada parte del form.
-        document.write(x);
+        var x = document.forms[0].elements[1].name;
+        document.write(alert(x)); 
     </script>
 </body>
 </html>
